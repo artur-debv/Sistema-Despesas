@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form-despesa {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#form-despesa label {
+    margin-bottom: 5px;
+}
+
+#form-despesa input,
+#form-despesa select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form-despesa button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tabela-despesas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#tabela-despesas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-despesas th,
+#tabela-despesas td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#tabela-despesas th {
+    text-align: center;
+}

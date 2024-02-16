@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "xlsx-js": "^0.8.7"
+  }
+}
